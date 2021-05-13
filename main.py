@@ -6,4 +6,4 @@ if __name__ == "__main__":
   #print(eliminateImpl("BiImpl(1,1)"))
   #print(eliminateImpl("And(0,1,1,1,1,1,1)"))
 
-  print(convertToCNF("BiImpl(Not(a),And(a,b))"))
+  print(convertToCNF("BiImpl(Impl(r,q),And(q,r))"))
